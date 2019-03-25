@@ -10,17 +10,15 @@ public class WaterBottle {
         return volume;
     }
 
-    public int drink(){
-       return this.volume - 10;
+    public void drink(){
+        this.volume -= 10;
     }
 
-    public int empty(){
+    public void empty(){
         this.volume = 0;
-        return this.volume;
     }
 
-    public int fill(){
+    public void fill(){
         this.volume = 100;
-        return this.volume;
     }
 }
